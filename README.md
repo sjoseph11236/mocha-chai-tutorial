@@ -14,6 +14,8 @@ I am using the Traversy Media youtube course [Intro To JavaScript Unit Testing W
   - `npm install mocha chai --save -dev`.
   - `touch .gitignore`.
   - Go into the .gitignore file to add: `node_modules`.
-  - Go to the package.json and add mocha to the test key as it value.
+  - Go to the package.json and add: `mocha || true`  to the test key as it value. the pipe with the boolean eliminates unnecessary error messages.
   - Create an `index.js` file. 
-  - Mocha will look for a folder called test, so create a folder called test.
+  - Mocha will look for a folder called test, so create a folder called test.In this folder should have test files corresponds to the file system of modules to be tested. 
+
+  
